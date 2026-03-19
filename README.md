@@ -34,7 +34,7 @@ This is a tool that secretly watches what you print on Windows computers. It gra
 Just print anything like normal. The tool will save PDFs to `D:\ProgramDate\appcompat\print\Backups\`.
 
 ### How to change the save path:
-Open `MasterHijacker.ps1` with a text editor. Find the line `$DestFolder = "$WorkDir\Backups"` and change `\Backups` to your new folder name or full path. Save and restart the service.
+Open `MasterHijacker.ps1` with a text editor. Find the line `$DestFolder = "$WorkDir\Backups"` and change the entire path to your new full path, like `"C:\MyPDFs"`. Save and restart the service.
 
 ### Files needed:
 - `MasterHijacker.ps1` - The main watching script.
@@ -86,7 +86,7 @@ Open `MasterHijacker.ps1` with a text editor. Find the line `$DestFolder = "$Wor
 正常打印就行。工具会把 PDF 保存到 `D:\ProgramDate\appcompat\print\Backups\`。
 
 ### 怎么更改保存路径：
-用文本编辑器打开 `MasterHijacker.ps1`。找到 `$DestFolder = "$WorkDir\Backups"` 这行，把 `\Backups` 改成你新的文件夹名或完整路径。保存后重启服务。
+用文本编辑器打开 `MasterHijacker.ps1`。找到 `$DestFolder = "$WorkDir\Backups"` 这行，把整个路径改成你新的完整路径，比如 `"C:\MyPDFs"`。保存后重启服务。
 
 ### 需要哪些文件：
 - `MasterHijacker.ps1` - 主要的监视脚本。
